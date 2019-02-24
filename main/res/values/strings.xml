@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NutriCount</string>
+    <string name="Food">Food</string>
+    <string name="Fat">Fat</string>
+    <string name="Protein">Protein</string>
+    <string name="Calories">Calories</string>
+    <string name="TotalWeight">Total Grams</string>
+    <string name="Submit">Submit</string>
+    <string name="Sodium">Sodium</string>
+    <string name="Add">Add More Foods</string>
+    <string name="View">View All Foods</string>
+    <string name="HowMuch">How much did you eat?</string>
+    <string name="grams">Grams: </string>
+    <string name="calc">Calculate</string>
+    <string name="Meal">Add Meal</string>
+    <string name="WeighMeal">How many grams of each ingredient?</string>
+    <string name="AddMeal">Select Ingredients</string>
+    <string name="MealName">Name of Meal</string>
+    <string name="title_activity_confirm_meal">ConfirmMeal</string>
+</resources>

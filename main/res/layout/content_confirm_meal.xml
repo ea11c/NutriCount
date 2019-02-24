@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/confirm_meal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ConfirmMeal"
+    tools:showIn="@layout/activity_confirm_meal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_meal_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/Submit" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/WeighMeal" />
+
+        <EditText
+            android:id="@+id/newMeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/MealName"
+            android:inputType="text"
+            android:importantForAutofill="no"/>
+
+        <TableLayout
+            android:id="@+id/meal_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
